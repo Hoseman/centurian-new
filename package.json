@@ -1,0 +1,14 @@
+{
+  "name": "centurian-new-site",
+  "version": "1.0.0",
+  "description": "Centurian Autos New Site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/custom.scss css/custom.css -w"
+  },
+  "author": "Andrew Hosegood",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

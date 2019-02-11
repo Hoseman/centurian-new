@@ -1,0 +1,207 @@
+body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #5a5a5a;
+}
+p {
+    font-family: 'Lato', arial, sans-serif;
+    font-weight:300;
+}
+
+h1, h2, h3, h4, h5, {
+    font-family: 'Lato', arial, sans-serif;
+    font-weight:700;
+}
+.bold-link {
+    font-weight:700;
+    color:$white;
+    text-transform:uppercase;
+}
+.bold-link:hover {
+    font-weight:700;
+    color:$palegrey;
+    text-transform:uppercase;
+}
+.fixed-top {
+    position: relative;
+}
+/* Header */
+header {
+    background-color:$black;
+    height:164px;
+    padding: 28px 0 28px 0;
+    & .logo-main {
+        width:22%;
+        float:left;
+    }
+    & .logo-main img {
+        width:100%;
+        height:auto;
+    }
+    & .header-strapline {
+        width:60%;
+        float:left;
+        text-align:center;
+        margin-top:38px;
+    }
+    & .header-tel {
+        color:$lightgrey;
+        font-size:18px;
+        font-weight:300;
+        display: block;
+        float: right;
+        text-align:right;
+        width:30%;
+        opacity:0.7;
+    }
+    & .header-tel a {
+        color:$lightgrey !important;
+    }
+
+    & .header-message {
+        color:$lightgrey;
+        font-size:18px;
+        font-weight:300;
+        display: block;
+        float: right;
+        width:50%;
+        opacity:0.7;
+    }
+    & .header-main-socs {
+        width:15%;
+        float:right;
+        margin-top: 42px;
+        & ul li a i {
+            font-size: 17px !important;
+        }
+        & ul li a {
+            display: block;
+            width: 21px !important;
+            height: 21px !important;
+            line-height: 27px !important;
+            text-align: center;
+            border-radius: 12% !important;
+            background-color: $white !important;
+            color: $black !important;
+            text-indent: 1px;
+        }
+        & ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        & ul li {
+            display: block;
+            float: right;
+            margin-left: 14px;
+            margin-bottom: 0;
+        }
+    }
+
+}
+/* End Header */
+
+/* Carousel */
+.ah-main-carousel {
+    position: relative;
+    width: 100%;
+    /*height:600px;*/
+    overflow: hidden;
+    background-image: url("../images/centurian-background-6.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:cover;
+}
+
+/* End Carousel */
+
+/* Navigation */
+.navbar {
+    position: absolute !important;
+    /*top:500px;*/
+    width:100% !important;
+    border-top: 2px solid #666;
+    background-color:$black;
+}
+.bg-dark {
+    background-color:$black !important;
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+    & .navbar-nav .nav-link {
+        color:$white;
+        font-size:14px;
+    }
+}
+.ah-fixed-menu {
+    position: fixed !important;
+    z-index:99;
+}
+
+/* End Navigation */
+
+/* Footer */
+.site-footer {
+    padding:50px 0px 130px 0px;
+    background-color:$black;
+    & a {
+        color:$lightgrey;
+    }
+    & img {
+        margin:0 0 30px 0;
+        width: 100%;
+    }
+    & p {
+        color:$white;
+        font-size:12px;
+        font-weight:300;
+        margin:10px 0 0 0;
+    }
+    /*
+    & ul {
+        margin-left: -42px;
+    }*/
+    & ul li {
+        color:$white;
+        font-size:12px;
+        font-weight:300;
+        margin:0 0 0 -22px;;
+    }
+    & .footer-social-icons ul li {
+        display: block;
+        float: left;
+        margin-left: 6px;
+        margin-bottom: 0;
+    }
+    & .footer-social-icons ul li a {
+        display: block;
+        width: 21px !important;
+        height: 21px !important;
+        line-height: 27px !important;
+        text-align: center;
+        border-radius: 12% !important;
+        background-color: #fff !important;
+        color: #000 !important;
+        text-indent: 1px;
+    }
+    & hr {
+        border-top: 1px solid #555;
+    }
+    & .big-signoff a {
+        color:$white;
+    }
+    & .footer-social-icons ul {
+        margin: 10px 0 0 -42px;
+    }
+    & .quicklinks {
+        margin: 7px 0 0 0;
+    }
+    & .opening-times {
+        margin-left:67px;
+    }
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}

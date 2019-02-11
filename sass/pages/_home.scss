@@ -1,0 +1,354 @@
+/* Home page intro */
+.intro {
+    margin-top: 56px;
+    padding-top: 40px;
+    text-align:center;
+    & h2 {
+        font-size:48px;
+        margin-bottom: 40px;
+        margin-top:0px;
+        color:$lightgrey;
+    }
+    & p {
+        font-size:16px;
+        color:$palegrey;
+    }
+    & .ah-underline {
+        width: 100px;
+        height: 4px;
+        background-color: $white;
+        display: block;
+        transform: skewX(-25deg);
+        margin:-5px auto 35px auto;
+    }
+}
+.intro-background {
+    width:100%;
+    height:auto;
+    background-color:$black;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+.ah-underline {
+    width: 100px;
+    height: 4px;
+    background-color: $black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: skewX(-25deg);
+    margin-bottom: 30px;
+}
+.our-stock-background {
+    padding: 60px 0px 60px 0px;
+    background-image: url("../images/our-stock-background.jpg");
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size:cover;
+    & .btn-primary {
+        padding: 9px 50px 9px 50px;
+        font-size: 16px;
+        border-radius: 0px;
+        background-color:$darkblue;
+        border:0px;
+        margin:0px auto 0px auto;
+    }
+    & .btn-primary:hover {
+        opacity:0.8;
+        background-color:$black;
+    }
+    & .our-stock {
+        text-align:center;
+        & h2 {
+            font-size:48px;
+            margin-bottom: 40px;
+            margin-top:0px;
+            color:$black;
+        }
+    }
+    & .used-car-img {
+        width:100%;
+    }
+}
+/* owl carousel */
+.ah-our-stock {
+    margin: 0 auto;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    max-width: 62.5rem;
+    width: 100%;
+    overflow: hidden;
+}
+#demos .owl-carousel .item {
+    height: 19rem;
+    padding: 0rem !important;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    font-size: 36px;
+}
+/*
+.owl-previous span {
+    font-size:26px !important;
+}
+.owl-next span {
+    font-size:26px !important;
+}
+*/
+/* owl carousel */
+.used-car-price {
+    background-color:$darkblue;
+    padding: 15px;
+    color: #fff;
+    display: block;
+    margin: 15px 15px 15px 0px;
+    -webkit-clip-path: polygon(11% 0%, 100% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(11% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+.stock-price-bg {
+    background-color:$black;
+    float: left;
+    width: 100%;
+}
+.used-car-desc {
+    color:$white;
+    padding-top: 27px;
+    display: block;
+}
+.our-finance-contact {
+    text-align:center;
+    background-color:$black;
+    padding:50px 0px 50px 0px;
+    & h2{
+        color:$palegrey;
+        font-weight:300;
+    }
+    & .box-1 {
+        background-color:$darkblue;
+        margin:35px 0 45px 0;
+        padding:30px 0 30px 0;
+        & h3 {
+            color:$white;
+            font-weight:300;
+        }
+    }
+    & .box-2 {
+        background-color:$darkgrey;
+        margin:35px 0 45px 0;
+        padding:30px 0 30px 0;
+        & h3 {
+            color:$white;
+            font-weight:300;
+        }
+    }
+    & p {
+        color:$palegrey;
+    }
+    & .box-left {
+        width:20%;
+        float:left;
+        padding: 0 20px 0 0;
+    }
+    & .box-right {
+        width:80%;
+        float:right;
+        text-align:left;
+        padding: 0 20px 0 0;
+    }
+    & i {
+        font-size: 50px;
+        color:$white;
+        margin-top: 11px;
+    }
+    & .box-link {
+        transition: all 0.5s ease;
+    }
+    & .box-link:hover {
+        opacity:0.7;
+    }
+}
+.testimonials {
+    padding:50px 0px 50px 0px;
+    text-align:center;
+    background-image: url("../images/testimonials-background.jpg");
+    background-repeat:no-repeat;
+    background-position: center top;
+    background-size:cover;
+    & h1{
+        color:$darkgrey;
+        font-style:italic;
+        font-weight:300;
+    }
+    & p {
+        color:$darkgrey;
+    }
+    & h4 {
+        color:$darkgrey;
+        font-weight:300;
+    }
+}
+/* Testimonials Carousel */
+#myCarousel {
+    & .carousel-caption {
+        bottom: 3rem;
+        z-index: 10;
+        top:10%;
+        bottom:10%;
+        & i {
+            color:$darkblue;
+            padding:0 2px 0 2px;
+        }
+    }
+    & .carousel-item {
+        height: 17rem;
+        & img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            height: 32rem;
+            }
+        }
+}
+
+
+  /* Testimonials Carousel */
+
+  /* fine-automobiles */
+  .fine-automobiles {
+    width:100%;
+    background-color:$lightgrey;
+    padding:80px 0% 80px 0%;
+    & .fine-automobiles-box {
+        background-color:$darkblue;
+        opacity:0.8;
+        width:100%;
+        max-width:1140px;
+        margin:0 auto 0 auto;
+        padding:40px;
+    }
+    & h1, h3, p {
+        color:$white;
+        font-weight:normal;
+    }
+  }
+  .fine-automobiles-box-small {
+    background-color:$darkblue;
+    opacity:0.8;
+    width:80px;
+    height:39px;
+    -webkit-clip-path: polygon(0 0, 100% 100%, 100% 27%);
+    clip-path: polygon(0 0, 100% 100%, 100% 27%);
+  }
+    /* fine-automobiles */ 
+
+    @media (max-width: 1200px) {
+        header .header-message {
+            font-size: 15px;
+        }
+    }
+
+    @media (max-width: 992px) {
+        header .header-main-socs {
+            width:33.5%;
+        }
+        header .header-message {
+            display:none;
+        }
+        header .header-strapline {
+            width: 33.5%;
+        }
+        header .header-tel {
+            width: 100%;
+        }
+        header .logo-main {
+            width: 33%;
+        }
+        .our-finance-contact .box-2, .our-finance-contact .box-1 {
+            padding: 30px 0 30px 10px;
+        }
+        our-finance-contact i {
+            margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        header .logo-main img {
+            margin-top: 30px !important;
+        }
+        .site-footer .opening-times {
+            margin-left: 0px;
+            color:red;
+        }
+
+        .site-footer p {
+            font-size: 10px;
+        }
+        .navbar {
+            top:0px !important;
+            /*background-color: transparent*/;
+        }
+
+    }
+    @media (max-width: 767px) {
+        .navbar {
+            top:0px !important;
+            /*background-color: transparent*/;
+        }
+        .site-footer img {
+            width: 220px;
+        }
+    }
+    @media (max-width: 560px) {
+        header .logo-main {
+            width: 40%;
+        }
+        header .header-strapline {
+            width: 60%;
+            margin-top: 18px;
+        }
+        header .header-main-socs {
+            margin: 18px 8px 0 0;
+        }
+        header .header-main-socs {
+            width:50%;
+        }
+        .footer-mobile-styling {
+            text-align:center;
+        }
+        .site-footer ul li {
+            margin: 0 0 0 -43px;
+            list-style-type: none;
+        }
+        .site-footer .footer-social-icons ul {
+            margin: 20px auto 0 auto;
+            text-align: center;
+            width: 60px;
+            padding: 0px;
+        }
+    }
+    @media (max-width: 480px) {
+        header .logo-main {
+            width: 45%;
+        }
+        header .header-strapline {
+            width: 55%;
+        }
+    }
+
+    @media (min-width: 40em) {
+        .carousel-caption p {
+          margin-bottom: 1.25rem;
+          font-size: 1.25rem;
+          line-height: 1.4;
+        }
+      
+        .featurette-heading {
+          font-size: 50px;
+        }
+      }
+      
+      @media (min-width: 62em) {
+        .featurette-heading {
+          margin-top: 7rem;
+        }
+      }
